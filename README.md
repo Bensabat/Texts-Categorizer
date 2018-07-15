@@ -29,23 +29,6 @@ Or this command if you want to launch the topic recognition of a text file:
 
     > python3 src/main.py -test
 
-# How to launch the app
-
-## BDD
-First of all you have to create a postgreSQL database named "thematisation" with a user called "seo"
-and no password.
-
-## Back-end
-To launch the back end, open the folder /back/SEO/SEO.
-Once your are in, enter the following command:
-"python manage.py runserver"
-
-## Front-end
-For the front-end, go to the folder /front/seo.
-Enter the following command in the right order:
-- npm i
-- npm run start
-
 ___
 Authors
 -------
